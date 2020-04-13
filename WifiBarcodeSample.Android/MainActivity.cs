@@ -21,6 +21,7 @@ namespace WifiBarcodeSample.Droid
 		public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
 		{
 			global::ZXing.Net.Mobile.Android.PermissionsHandler.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+
 		}
 	}
 }

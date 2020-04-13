@@ -10,8 +10,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -23,9 +21,9 @@
 	<key>MinimumOSVersion</key>
 	<string>8.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>WifiBarcodeSample</string>
+	<string>BarcodeReader</string>
 	<key>CFBundleIdentifier</key>
-	<string>nl.versluis.WifiBarcodeSample</string>
+	<string>dk.happyscan.BarcodeReader</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>
@@ -36,5 +34,7 @@
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Please allow the camera to be used for scanning barcodes</string>
+	<key>UIMainStoryboardFile</key>
+	<string>LaunchScreen</string>
 </dict>
 </plist>
